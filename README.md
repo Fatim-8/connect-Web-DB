@@ -3,15 +3,17 @@
 To-Do
 Connecting a Web Page to a Database using "XAMPP"
 
-Firstly. Install XAMPP on your computer.
+1. Install XAMPP on your computer.
+2. Start the Apache and MySQL services in XAMPP.
+3. Create a new database in phpMyAdmin.
+4. Create your own table in the database.
+5.  Create a web page (.php) and establish a connection to the database using PHP.
 
-Secondly, Start the Apache and MySQL services in XAMPP.
+### To begin with, I created a simple model using the direction icons from the Bootstrap library. I customized these icons using CSS to fit my own design and vision.
 
-Third, Create a new database in phpMyAdmin.
+After that, I created a database called "robotcontrol" which contains a single table named "actions". This table has two columns - one for the "ID" and the other for "the action". This will help me track and log the control commands for the robot.
 
-Fourthly, Create your own table in the database.
-
-Fifth,  Create a web page (.php) and establish a connection to the database using PHP.
+For me, it was important to create this simple and organized system for controlling the robot. I wanted to ensure that the user interface would be easy to use and visually appealing. At the same time, I wanted to be able to track and log all the commands I send to the robot through the database.
 
 ## Now we will see how to connect the page to the database in an actual way:
 
