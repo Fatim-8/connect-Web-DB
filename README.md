@@ -10,9 +10,7 @@ Connecting a Web Page to a Database using "XAMPP"
 5.  Create a web page (.php) and establish a connection to the database using PHP.
 
 ### To begin with, I created a simple model using the direction icons from the Bootstrap library. I customized these icons using CSS to fit my own design and vision.
-
 After that, I created a database called "robotcontrol" which contains a single table named "actions". This table has two columns - one for the "ID" and the other for "the action". This will help me track and log the control commands for the robot.
-
 For me, it was important to create this simple and organized system for controlling the robot. I wanted to ensure that the user interface would be easy to use and visually appealing. At the same time, I wanted to be able to track and log all the commands I send to the robot through the database.
 
 ## Now we will see how to connect the page to the database in an actual way:
